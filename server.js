@@ -1,6 +1,8 @@
 import express from "express";
-
+import router from "./routes/check";
 const app = express();
+
+app.use(router);
 
 app.get("/", (req, res) => {
   res.send("Welcome to my site");
