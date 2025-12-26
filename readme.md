@@ -17,3 +17,21 @@ Unsupported URLs return an error.
 - Fetch API
 
 
+```graphql
+
+project-root/
+│
+├── routes/
+│   ├── check.js        # Detects content type (image/video)
+│   ├── download.js     # Downloads image/video
+│
+├── utils/
+│   └── validator.js    # URL validation helper
+│
+├── downloads/          # Stored downloaded files
+│
+├── server.js           # App entry point
+├── package.json
+
+
+```

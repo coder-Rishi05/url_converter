@@ -13,6 +13,7 @@
   "type": "module",
   "dependencies": {
     "express": "^5.2.1",
-    "node": "^24.12.0"
+    "node": "^24.12.0",
+    "node-fetch": "^3.3.2"
   }
 }
