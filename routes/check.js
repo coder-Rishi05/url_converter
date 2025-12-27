@@ -5,8 +5,6 @@ const router = express.Router();
 router.post("/check", async (req, res) => {
   try {
     const { url } = req.body;
-
-    // validation for checking url present or not
     // validation for checking url present or not
     if (!url) {
       return res
