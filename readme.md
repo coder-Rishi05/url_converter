@@ -15,6 +15,7 @@ Unsupported URLs return an error.
 - Node.js
 - Express.js
 - Fetch API
+- CORS
 
 
 ```graphql
@@ -35,4 +36,11 @@ project-root/
 
 
 ```
+
+## Limitations
+
+- only support public links.
+- can'nt download you tube videos.
+- the download folder must be on the root directory
+-  the frontend not supported currently
 
